@@ -1,0 +1,6 @@
+version: '3'
+services:
+  multistage:
+    build:
+      context: .
+    container_name: hello_world
